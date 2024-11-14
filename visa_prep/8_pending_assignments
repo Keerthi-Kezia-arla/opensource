@@ -1,0 +1,7 @@
+x,y,z = map(int,input().split())
+days_min = z*24*60
+time_req = x*y
+if days_min>=time_req:
+    print("YES")
+else:
+    print("NO")
