@@ -1,0 +1,9 @@
+x,y,z = map(int,input().split())
+#total weight bridge can carry = z
+#remaining weight witout the truck is = z-y
+#we need z-y//x number of mangoes
+max_mangoes = 0
+remaining_weight = z-y
+if remaining_weight>0:
+    max_mangoes = remaining_weight//x
+print(max_mangoes)
