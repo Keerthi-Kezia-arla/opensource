@@ -1,0 +1,6 @@
+n = int(input())
+# 1kg = 1000 pg
+# 1 book = 100 pg
+# no. of books can be made from n pulps
+books = (n*1000)//100
+print(books)
